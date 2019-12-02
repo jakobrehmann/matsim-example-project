@@ -7,7 +7,7 @@ public class guiceWithoutMatsim {
 
     public static void main(String[] args) {
 
-        Module module = new AbstractModule(){
+        com.google.inject.Module module = new AbstractModule(){
             @Override protected void configure(){
                 bind( Abc.class).to(AbcImp1.class);
                 bind(Helper.class).to(HelperImp1.class); // The implementation is easily switched if by just changing the bind. 

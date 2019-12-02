@@ -9,7 +9,7 @@ import org.matsim.core.scenario.ScenarioUtils;
 
 import static org.matsim.core.controler.OutputDirectoryHierarchy.OverwriteFileSetting.deleteDirectoryIfExists;
 
-public class MyRunMatsim {
+public class MyRunMatsimNov4 {
     public static void main(String[] args) {
 //        Config config = ConfigUtils.createConfig();
         Config config = ConfigUtils.loadConfig("scenarios/equil/config.xml");

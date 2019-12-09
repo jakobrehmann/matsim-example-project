@@ -45,6 +45,7 @@ public class RunMatsimTest{
 				  "--config:controler.lastIteration=1"
 			} ;
 			RunMatsim.main( args ) ;
+
 			{
 				String expectedEventsFile = utils.getInputDirectory() + "/output_events.xml.gz" ;
 				String actualEventsFile = utils.getOutputDirectory() + "/output_events.xml.gz" ;

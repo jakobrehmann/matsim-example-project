@@ -16,7 +16,7 @@ class RunMatsimFromExamplesUtils{
 
 		// need to add matsim-examples in pom.xml for this class to work
 
-//		URL context = org.matsim.examples.ExamplesUtils.getTestScenarioURL( "equil" );
+		URL context = org.matsim.examples.ExamplesUtils.getTestScenarioURL( "equil" );
 //		URL url = IOUtils.newUrl( context, "config.xml" );
 //
 //		Config config = ConfigUtils.loadConfig( url );

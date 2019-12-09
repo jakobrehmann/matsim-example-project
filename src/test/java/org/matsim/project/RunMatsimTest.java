@@ -46,6 +46,7 @@ public class RunMatsimTest{
 			} ;
 			RunMatsim.main( args ) ;
 
+
 			{
 				String expectedEventsFile = utils.getInputDirectory() + "/output_events.xml.gz" ;
 				String actualEventsFile = utils.getOutputDirectory() + "/output_events.xml.gz" ;
@@ -56,6 +57,7 @@ public class RunMatsimTest{
 
 		} catch ( Exception ee ) {
 			Logger.getLogger(this.getClass()).fatal("there was an exception: \n" + ee ) ;
+
 
 			// if one catches an exception, then one needs to explicitly fail the test:
 			Assert.fail();
